@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/desolate_space_menu">
+
+    <Button
+        android:background="@drawable/next_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonContinue"
+        android:textAllCaps="false"
+        android:layout_marginBottom="29dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:background="@drawable/start_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonStart"
+        android:layout_marginBottom="23dp"
+        android:layout_above="@+id/ButtonContinue"
+        android:layout_alignLeft="@+id/ButtonContinue"
+        android:layout_alignStart="@+id/ButtonContinue" />
+
+
+
+
+</RelativeLayout>

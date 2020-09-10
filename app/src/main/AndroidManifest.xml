@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.book.unnamed.desolatespacemyproject">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.book.unnamed.desolatespacemyproject.Activity.MenuActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.book.unnamed.desolatespacemyproject.Activity.GameActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name="com.book.unnamed.desolatespacemyproject.Activity.LevelLeadership"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name="com.book.unnamed.desolatespacemyproject.Activity.You_Lost_leaderShip"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name="com.book.unnamed.desolatespacemyproject.Activity.LevelDoor"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name="com.book.unnamed.desolatespacemyproject.Activity.You_Lost_LevelDoor"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name="com.book.unnamed.desolatespacemyproject.Activity.LevelFirstAidPost"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name="com.book.unnamed.desolatespacemyproject.Activity.You_Lost_FirstAidPost"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name="com.book.unnamed.desolatespacemyproject.Activity.LevelEnd"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name="com.book.unnamed.desolatespacemyproject.Activity.Level_Bad_Choose"
+            android:screenOrientation="portrait">
+        </activity>
+
+    </application>
+
+</manifest>

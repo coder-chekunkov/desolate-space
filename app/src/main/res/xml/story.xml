@@ -1,0 +1,281 @@
+<story>
+    <level id="1">
+        <header>«Предисловие»</header>
+        <picture>foreword_capitan</picture>
+        <message>   КОМПЬЮТЕР:   Космический Корабль «Икар-3».</message>
+        <message>   КОМПЬЮТЕР:   Записи Капитана Космического Корабля «Икар-3».</message>
+        <message>   КАПИТАН:   Запись от 18 июня 2452 года...</message>
+        <message>   КАПИТАН:   После аварии техногенного характера, на Земле невозможно жить..</message>
+        <message>   КАПИТАН:   ... и человечество было вынужденно лететь на «Родную Обитель-2»</message>
+        <message>   КАПИТАН:   - далёкую, колонизированную планету.</message>
+        <message>   КАПИТАН:   Мы в полете уже пять месяцев...</message>
+        <message>   КАПИТАН:   Во время вылета, на борту было 6023 человека...</message>
+        <message>   КАПИТАН:   вчера на борту родился мальчик, Джон.</message>
+        <message>   КАПИТАН:   на борту 6024 человека.</message>
+        <button>Продолжить</button>
+    </level>
+
+    <level id="2">
+        <header>«День 10998»</header>
+        <picture>mum_sun</picture>
+        <message>   МАМА:   Ты должен сказать это еще раз, Джон!</message>
+        <message>   ДЖОН:   Не оставляй меня, МАМА!</message>
+        <message>   МАМА:   ТЫ должен сказать это еще раз!</message>
+        <message>   ДЖОН:   Я всегда буду здесь! Я всегда буду в этой комнате!</message>
+        <message>   МАМА:   Обещай мне!</message>
+        <button_bad_choose>Не Обещать Матери</button_bad_choose>
+        <button_good_choose>Обещать Матери</button_good_choose>
+        <message>   МАМА:   *Кашлеет*, хороший мальчик, *Кашлеет*</message>
+        <message>   ДЖОН:   МАМА, НЕТ! МАМА!!!</message>
+        <button>Продолжить</button>
+    </level>
+
+    <level id="3">
+        <header>«День 11110»</header>
+        <picture>todo_list</picture>
+        <message>   ДЖОН:   Что же мне сегодня нужно сделать?!</message>
+        <button_good_choose>Проверить Радиацию</button_good_choose>
+        <message>   ДЖОН:   …так необходимо посмотреть радиацию в комнате…</message>
+        <message>   ДЖОН:   Радиация в пределах нормы. Около 20 микрорентген в час.</message>
+        <message>   ДЖОН:   Радиация в порядке, а что дальше?</message>
+        <button_good_choose>Принять Витами «В».</button_good_choose>
+        <message>   ДЖОН:   нужно  принять витамин «В»…</message>
+        <message>   ДЖОН:   фу, ненавижу эти таблетки</message>
+        <button_good_choose>Посмотреть состояние космического корабля.</button_good_choose>
+        <message>   ДЖОН:   И наконец, посмотреть состояние космического корабля.</message>
+        <message>  </message>
+        <message_computer>   КОМПЬЮТЕР:  Состояние космического корабля «Икар-3»:</message_computer>
+        <message_computer>   КОМПЬЮТЕР:  Пассажиров на борту:   1;</message_computer>
+        <message_computer>   КОМПЬЮТЕР:  Вода:   ВПОРЯДКЕ;</message_computer>
+        <message_computer>   КОМПЬЮТЕР:  Электричество:   ВПОРЯДКЕ;</message_computer>
+        <message_computer>   КОМПЬЮТЕР:  Общая характеристика: 10 из 10;</message_computer>
+        <message>   ДЖОН:  Хорошо... день прошел удачно!</message>
+        <button>Продолжить</button>
+    </level>
+
+    <level id="4">
+        <header>«День 11111»</header>
+        <picture>error_day</picture>
+        <message>   ДЖОН:   ...так за сегодня я уже все проверил, отсталость только проверить состояние корабля…</message>
+        <button_good_choose>Посмотреть состояние космического корабля.</button_good_choose>
+        <message_computer>   КОМПЬЮТЕР:  Состояние космического корабля «Икар-3»:</message_computer>
+        <message_computer>   КОМПЬЮТЕР:  Пассажиров на борту:   1;</message_computer>
+        <message_computer>   КОМПЬЮТЕР:  Вода:   ВПОРЯДКЕ;</message_computer>
+        <message_computer>   КОМПЬЮТЕР:  Электричество:   ВПОРЯДКЕ;</message_computer>
+        <message_computer_bad>   КОМПЬЮТЕР:  Кислород:   ОШИБКА;</message_computer_bad>
+        <message_computer_bad>   КОМПЬЮТЕР:  ВОСПОЛЬЗУЙТЕСЬ РУКОВОДСТВОМ №238671;</message_computer_bad>
+        <message>   ДЖОН:   ...о Боже....</message>
+        <button_leadership>Продолжить</button_leadership>
+    </level>
+
+    <!--<level id="5">class.LevelLeadership</level>-->
+
+    <level id="6">
+        <header>«Руководство»</header>
+        <picture>book</picture>
+        <message>   ДЖОН:   Наконец-то я нашел руководство, теперь нужно найти что мне следует сделать...</message>
+        <button_good_choose>Искать нужное руководство</button_good_choose>
+        <message>   ДЖОН:   Фу, это было сложно...</message>
+        <message>   ДЖОН:   Руководство гласит:</message>
+        <message>   ДЖОН:   «1. Надеть Космический скафандр;»</message>
+        <message>   ДЖОН:   «2.  Взять сменный фильтр;»</message>
+        <message>   ДЖОН:   «3.  Добраться до комнаты очистки кислорода;»</message>
+        <message>   ДЖОН:   «4.  Отключить подачу кислорода;»</message>
+        <message>   ДЖОН:   «5.  Заменить сломанный/неисправный фильтр;»</message>
+        <message>   ДЖОН:   «6.  Восстановить подачу кислорода;»</message>
+        <message>   ДЖОН:   Приступим....</message>
+        <button_output>Продолжить</button_output>
+    </level>
+
+    <!--<level id="7">class.LevelDoor</level>-->
+
+    <level id="8">
+        <header>«Скафандр»</header>
+        <picture>space_suit</picture>
+        <message>   ДЖОН:   Как я люблю свою комнату.</message>
+        <message>   ДЖОН:   Эх-х-х-х.</message>
+        <message>   ДЖОН:   Для начала я должен надеть скафандр.</message>
+        <message>   ДЖОН:   По плану он должен находиться в отделение "А".</message>
+        <button_good_choose>Зайти в Отделение "А"</button_good_choose>
+        <message>   ДЖОН:   Так, вот он.</message>
+        <button_good_choose>Надеть Космический Скафандр</button_good_choose>
+        <message>   ДЖОН:   А вот и сменные фильтры.</message>
+        <button_good_choose>Взять Сменные Фильтры</button_good_choose>
+        <writer>...что-то падает на заднем фоне...</writer>
+        <message>   ДЖОН:   Господи, что это было?</message>
+        <message>   ДЖОН:   Ладно, показалось.</message>
+        <message>   ДЖОН:   Надо двигаться дальше...</message>
+        <button>Продолжить</button>
+    </level>
+
+    <level id="9">
+        <header>«Очистка Кислорода»</header>
+        <picture>oxygen_purification</picture>
+        <button_good_choose>Отключить Подачу Кислорода</button_good_choose>
+        <message_computer>   КОМПЬЮТЕР:  Подача Кислорода Была Отключена.</message_computer>
+        <message>   ДЖОН:   Хорошо, что у меня есть скафандр.</message>
+        <button_good_choose>Найти Сломанный Фильтр</button_good_choose>
+        <message>   ДЖОН:   Так, вот и он.</message>
+        <button_good_choose>Снять Сломанный Фильтр.</button_good_choose>
+        <message>   ДЖОН:   Иди-ка сюда.</message>
+        <button_good_choose>Поставить Новый Фильтр.</button_good_choose>
+        <message>   ДЖОН:   Хорошо.</message>
+        <button_good_choose>Восстановить Подачу Кислорода</button_good_choose>
+        <sound>   ГОЛОС:   ...не надо...</sound>
+        <message>   ДЖОН:   Что, кто это?</message>
+        <sound>   ГОЛОС:   ...не делай этого...</sound>
+        <message_computer>   КОМПЬЮТЕР:  Подача Кислорода Была Восстановлена.</message_computer>
+        <writer>...где-то на корабле что-то взорвалось, корабль начало трясти...</writer>
+        <message>   ДЖОН:   Что Опять то?</message>
+        <sound>   ГОЛОС:   ..я предупреждала...</sound>
+        <button>Продолжить</button>
+    </level>
+
+    <level id="10">
+        <header>«Еще Одна Проблема»</header>
+        <picture>one_more_problem</picture>
+        <message>   ДЖОН:   Да, что же твориться с этим кораблем?</message>
+        <message>   ДЖОН:   Взрыв был в отделение "В".</message>
+        <button_good_choose>Зайти В Отделение "В"</button_good_choose>
+        <message>   ДЖОН:   Почему эта дверь не открывается?</message>
+        <button_good_choose>Посмотреть В Окно Отделения "В"</button_good_choose>
+        <message>   ДЖОН:   Господи, что там горит?</message>
+        <message>   ДЖОН:   Надо сбегать на мостик корабля.</message>
+        <message>   ДЖОН:   Там я все узнаю, что твориться на этом корабле!</message>
+        <sound>   ГОЛОС:   ...стой...</sound>
+        <button>Продолжить</button>
+    </level>
+
+    <level id="11">
+        <header>«Не Решаемая Проблема»</header>
+        <picture>unsolvable_problem</picture>
+        <message>   ДЖОН:   Нужно, как можно быстрее добраться до мостика.</message>
+        <sound>   ГОЛОС:   ...выслушай меня...</sound>
+        <message>   ДЖОН:   Да кто это?</message>
+        <message>   ДЖОН:   Отвечай!</message>
+        <sound>   ГОЛОС:   ...не важно, кто я...</sound>
+        <sound>   ГОЛОС:   ...вернись к отделению и сам потуши пожар...</sound>
+        <message>   ДЖОН:   Почему я должен тебе верить?</message>
+        <sound>   ГОЛОС:   ...ты знаешь меня...</sound>
+        <sound>   ГОЛОС:   ...я тебе все расскажу...</sound>
+        <message>   ДЖОН:   А-А-А! Хорошо!</message>
+        <button_good_choose>Бежать К Отделению "В"</button_good_choose>
+        <message>   ДЖОН:   Фу! Наконец-то!</message>
+        <message>   ДЖОН:   У меня есть скафандр, значит я должен выжить!</message>
+        <message>   ДЖОН:   Надо найти огнетушитель.</message>
+        <button_good_choose>Искать Огнетушитель</button_good_choose>
+        <message>   ДЖОН:   Так, вот он.</message>
+        <button_good_choose>Открыть Дверь и Тушить Пожар</button_good_choose>
+        <message>   ДЖОН:   Как же это было сложно.</message>
+        <writer>...пожар прекратился...</writer>
+        <message>   ДЖОН:   Теперь надо разобраться, что это был за голос!!!</message>
+        <message_computer_bad>   КОМПЬЮТЕР:  "Икар-3" имеет значительные повреждения;</message_computer_bad>
+        <message_computer_bad>   КОМПЬЮТЕР:  Повышенно Давление; </message_computer_bad>
+        <message_computer_bad>   КОМПЬЮТЕР:  Количество кислорода уменьшается;</message_computer_bad>
+        <message_computer_bad>   КОМПЬЮТЕР:  Кислорода 78%;</message_computer_bad>
+        <message_computer_bad>   КОМПЬЮТЕР:  Через 2 часа 15 минут жизнь на корабле будет невозможна;</message_computer_bad>
+        <message_computer_bad>   КОМПЬЮТЕР:  Приятного Полета;</message_computer_bad>
+        <message>   ДЖОН:   Я больше не могу так.</message>
+        <sound>   ГОЛОС:   ...беги...</sound>
+        <button>Продолжить</button>
+    </level>
+
+    <level id="12">
+        <header>«Новые Ощущения»</header>
+        <picture>new_sentasious</picture>
+        <message>   ДЖОН:   Нужно, как можно быстрее добраться до мостика.</message>
+        <writer>...он бежит очень быстро, не замечая нечего вокруг...</writer>
+        <writer>...но все же он услышал ужасный крик...</writer>
+        <message>   ДЖОН:   А-А-А-А-А-А-А</message>
+        <writer>...сильный удар...</writer>
+        <message>   ДЖОН:   Господи, я сломал руку!!!</message>
+        <message>   ДЖОН:   Помогите, кто-нибудь! ПОЖАЛУЙСТА!</message>
+        <message>   ДЖОН:   Ладно, никто мне здесь не поможет!</message>
+        <message>   ДЖОН:   Нужно выбираться самому!</message>
+        <message>   ДЖОН:   Мне нужно срочно в мед-пункт!</message>
+        <button_chemist>Продолжить</button_chemist>
+    </level>
+
+    <!--<level id="13">class.LevelFirstAidPost</level>-->
+
+    <level id="14">
+        <header>«Первая Помощь»</header>
+        <picture>health_care</picture>
+        <message>   ДЖОН:   Как же она болит!</message>
+        <message>   ДЖОН:   Нужно Осторожно снять скафандр!</message>
+        <button_good_choose>Снять Скафандр</button_good_choose>
+        <message>   ДЖОН:   В Аптечке есть все, что мне поможет!</message>
+        <button_good_choose>Открыть Медицинскую Аптечку</button_good_choose>
+        <message>   ДЖОН:   Я должен обработать и перевязать руку!</message>
+        <button_good_choose>Обработать Руку</button_good_choose>
+        <message>   ДЖОН:   А-А-А-А-А-А-А</message>
+        <writer>...жуткая боль...</writer>
+        <message>   ДЖОН:   Ладно, надо перевязать руку!</message>
+        <button_good_choose>Перевязать Руку</button_good_choose>
+        <message>   ДЖОН:   А-А-А! Как больно!!!</message>
+        <message>   ДЖОН:   Фу, нет времени отдыхать!</message>
+        <message>   ДЖОН:   Я обязан попасть на мостик!</message>
+        <button>Продолжить</button>
+    </level>
+
+    <level id="15">
+        <header>«Последний Рывок»</header>
+        <picture>last_dash</picture>
+        <message>   ДЖОН:   Наконец-то я добрался до мостика!</message>
+        <message>   ДЖОН:   Сейчас-то я узнаю, что твориться на этом корабле!</message>
+        <button_good_choose>Заглянуть В Окно Мостика</button_good_choose>
+        <message>   ДЖОН:   Господи! Там тоже пожар!</message>
+        <writer>...почти плачет...</writer>
+        <message>   ДЖОН:   Что мне теперь делать?</message>
+        <sound>   ГОЛОС:   Хватит Ныть! </sound>
+        <sound>   ГОЛОС:   Беги к ближайшему компьютеру и узнай, что здесь твориться!</sound>
+        <message>   ДЖОН:  Да, кто ты такая?</message>
+        <sound>   ГОЛОС:   ...ты знаешь меня лучше всех...</sound>
+        <writer>...что-то взорвалось на капитанском мостике...</writer>
+        <message>   ДЖОН:   Черт, надо бежать к компьютеру!</message>
+        <button_good_choose>Бежать к Компьютеру</button_good_choose>
+        <message>   ДЖОН:   Так, вот он!</message>
+        <message>   ДЖОН:   Сейчас узнаем состояние этого корабля!</message>
+        <message_computer_bad>   КОМПЬЮТЕР:  90% комнат охвачено пожаром;</message_computer_bad>
+        <message_computer_bad>   КОМПЬЮТЕР:  Вам следует двигаться в сторону спасательной шлюпки; </message_computer_bad>
+        <message_computer_bad>   КОМПЬЮТЕР:  ...поторопитесь... </message_computer_bad>
+        <message>   ДЖОН:  Надо бежать!</message>
+        <button>Продолжить</button>
+    </level>
+
+
+    <level id="16">
+        <header>«Ответы»</header>
+        <picture>last_pic</picture>
+        <message>   ДЖОН:   Вот она, спасательная шлюпка!</message>
+        <message>   ДЖОН:   Что мне тебе делать?</message>
+        <sound>   ГОЛОС:   Джон, ты и вправду хочешь покинуть наш дом?</sound>
+        <message>   ДЖОН:   Какой наш дом?</message>
+        <message>   ДЖОН:   Кто ты такая?</message>
+        <message>   ДЖОН:   Что тебе нужно от меня?</message>
+        <message>   ДЖОН:   Я хочу жить!</message>
+        <sound>   ГОЛОС:   Неужели ты хочешь покинуть корабль после того, что я сделала для тебя?</sound>
+        <message>   ДЖОН:   Да кто ты такая?</message>
+        <sound>   ГОЛОС:   Джон, я твоя мать!</sound>
+        <message>   ДЖОН:   Что? Ты  же умерла!</message>
+        <message>   ДЖОН:   Что ты для меня сделала?</message>
+        <sound>   ГОЛОС:   Как ты думаешь, где весь экипаж?</sound>
+        <sound>   ГОЛОС:   Как ты думаешь, почему ты жив?</sound>
+        <sound>   ГОЛОС:   Не помнишь?</sound>
+        <message>   ДЖОН:   ...нет...</message>
+        <sound>   ГОЛОС:   Я тебе напомню!</sound>
+        <sound>   ГОЛОС:   Провизии не хватало на всех! Кто-то должен был умереть!</sound>
+        <sound>   ГОЛОС:   Я спасла нас!</sound>
+        <message>   ДЖОН:   КАК?</message>
+        <sound>   ГОЛОС:   Я убила весь экипаж!</sound>
+        <sound>   ГОЛОС:   Помнишь, я заставила тебя надеть респиратор?!</sound>
+        <message>   ДЖОН:   ...да...</message>
+        <sound>   ГОЛОС:   Я пустила газ в систему очистки кислорода и убила всех?!</sound>
+        <sound>   ГОЛОС:   Я спасла тебе жизнь!</sound>
+        <message_computer_bad>   КОМПЬЮТЕР:  Через 1 минуту жизнь на "Икар-3" будет не возможна!</message_computer_bad>
+        <sound>   ГОЛОС:   Неужели ты меня бросишь?</sound>
+        <button_good_end>Покинуть Корабль</button_good_end>
+        <button_bad_end>Остаться На Корабле</button_bad_end>
+    </level>
+
+</story>
